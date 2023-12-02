@@ -12,7 +12,7 @@ app.use(cors());
 app.use(Express.static(path.join(__dirname, 'images')));
 
 app.get("/", (req, res) => {
-    res.send("Smiling API");
+    res.send("Lezatara API");
 });
 app.get("/foods", getCulinaries);
 app.get("/foods/image/:id", getThumbByIdHandler);
