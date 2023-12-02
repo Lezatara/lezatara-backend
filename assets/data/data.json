@@ -1,0 +1,1233 @@
+{
+    "receipt":[
+        {
+            "id": "1",
+            "name": "Rendang",
+            "ingredients":[
+                {
+                    "bahan": "Daging Sapi",
+                    "jumlah": "500 g"
+                },
+                {
+                    "bahan": "Garam",
+                    "jumlah": "secukupnya"
+                },
+                {
+                    "bahan": "Gula",
+                    "jumlah": "2 sendok teh"
+                },
+                {
+                    "bahan": "Bawang merah dan putih",
+                    "jumlah": "2 siung"
+                },
+                {
+                    "bahan": "Jahe",
+                    "jumlah": "3 cm"
+                },
+                {
+                    "bahan": "Kunyit",
+                    "jumlah": "2 siung"
+                },
+                {
+                    "bahan": "Lembar daun jeruk",
+                    "jumlah": "3 lembar"
+                },
+                {
+                    "bahan": "Serai",
+                    "jumlah": "1 buah"
+                },
+                {
+                    "bahan": "Cabe rawit",
+                    "jumlah": "15 biji"
+                },
+                {
+                    "bahan": "Cabe giling",
+                    "jumlah": "4 sdm"
+                },
+                {
+                    "bahan": "Garam",
+                    "jumlah": "secukupnya"
+                }
+            ],
+            "receipt":["Cuci bersih daging", "Siapkan bumbu-bumbu yang akan dihaluskan",
+            "Giling halus kunyit, jahe, bawang putih, bawang merah, & lengkuas dengan garam. Kemudian giling kasar cabe rawit. Disarankan bumbu halus digiling manual saja.",
+            "Semua bumbu yg sudah digiling dicampurkan ke daging. Masukkan cabe giling. Aduk rata sampai bumbu meresap ke daging",
+            "Siapkan santan kental, masukkan daun kunyit, daun jeruk, serai Panaskan santan sebelum daging dimasukkan. Aduk terus jangan sampai pecah santan.",
+            "Kalau sudah mendidih, masukkan daging",
+            "Masukkan sedikit pala bubuk",
+            "Aduk terus daging & apabila dirasa santan nya masih kurang pedas, bisa ditambahkan cabe giling lagi.",
+            "Pindahkan rendang menggunakan kuali besi agar minyak dari rendang bisa keluar. Aduk terus rendang sampai kental. Apabila daging masih dirasa keras, campurkan santan encer.",
+            "Rendang sudah selesai. Supaya rendang bisa coklat, harus selalu diaduk dgn api kecil sampai rendang menjadi kering dan berubah warna."],
+            "desc":"Rendang adalah masakan khas Indonesia, terutama dari Minangkabau, Sumatra Barat. Dibuat dengan memasak potongan daging dalam campuran rempah-rempah dan santan hingga kuahnya mengental. Cita rasa kaya, gurih, pedas, dan manis membuatnya dikenal sebagai salah satu hidangan terenak di dunia.",
+            "regional":"Sumatera",
+            "idPicture": 1,
+            "picture":"sumatera1.jpeg"
+        },
+        {
+            "id": "2",
+            "name": "Sate Padang",
+            "ingredients":[
+                {
+                    "bahan": "Daging Sapi",
+                    "jumlah": "500 g"
+                },
+                {
+                    "bahan": "Lidah Sapi",
+                    "jumlah": "1 buah"
+                },
+                {
+                    "bahan": "Jeroan Sapi",
+                    "jumlah": "500 g"
+                },
+                {
+                    "bahan": "Jahe",
+                    "jumlah": "2 cm"
+                },
+                {
+                    "bahan": "Serai",
+                    "jumlah": "1 buah"
+                },
+                {
+                    "bahan": "Kunyit",
+                    "jumlah": "1 lembar"
+                },
+                {
+                    "bahan": "Lengkuas",
+                    "jumlah": "2 cm"
+                },
+                {
+                    "bahan": "Daun Jeruk",
+                    "jumlah": "4 lembar"
+                },
+                {
+                    "bahan": "Tepung Beras",
+                    "jumlah": "50 gram"
+                },
+                {
+                    "bahan": "Cabai Merah Kering",
+                    "jumlah": "4 buah"
+                },
+                {
+                    "bahan": "Bawang merah dan putih",
+                    "jumlah": "4 siung"
+                },
+                {
+                    "bahan": "Kunyit",
+                    "jumlah": "4 cm"
+                }
+            ],
+            "receipt":["Langkah pertama untuk memulai memasak sebelum daging dan jeroan dibumbi, ada baiknya jika kita potong-potong terlebih dahulu dengan bentuk dadu ukuran yang diinginkan. Potong-potong daging dan jeroan juga lidah sapi dengan bentuk dadu. Hanya saja, jangan memotongnya terlalu tebal atau terlalu besar agar ketika dibakar tidak ada bagian daging yang masih mentah.",
+            "Setelah dipotong-potong secara menyeluruh, silahkan cuci bersih semua bahan termasuk dengan daging dan jeroan hingga bersih dengan dan masukkan daging dalam wadah kemudian sisihkan sementara", "Untuk membuat bumbu terlebih dahulu silahkan haluskan bumbu dengan menggunakna mesin penghalus atau ditumbuk dengan menggunakan ulean hingga bumbu benar-benar halus.",
+            "Kemudian masukkan bumbu yang telah dihaluskan pada daging bersama dengan lidah sapi dan jeroan dan pastikan jika semua bahan terlumuri dengan benar",
+            "Sebelum dimasak dn dibakar, diamkan terlebih dahulu daging agar bumbu yang dilumuri hingga meresap kedalamnya dengan sempurna",
+            "Setelah didiamkan, masak daging bersama dengan jahe, lengkuas, daun kunyit dan daun jeruk hingga tercium bau harum yang sedap dan daging menjadi lebih matang",
+            "Setelah daging matang, angkat dari wajan dan kentalkan dnegan kuah larutan tepung beras hingga benar-benar mengantal.",
+            "Siapkan tusukan sate, dan tusuk daging yang sudah dipotong-potong secara berseling atara dgaing, jeroan dan lidah sapi.",
+            "Setelah sate matang dari panggangan, angkat sate siapkan piring sapi dna berikan alas dengan daun pisang kemudian sajikan sate padang ini diatas piring yang telah dialasi daun pisang"],
+            "desc":"Sate Padang, hidangan khas Indonesia, terdiri dari daging sapi yang dipanggang dan disajikan dengan kuah kacang khas Padang. Diberi sentuhan rempah-rempah yang kaya, sate ini memiliki cita rasa pedas dan gurih yang memikat, menciptakan pengalaman kuliner yang lezat dan berkesan.",
+            "regional":"Sumatera",
+            "idPicture": 2,
+            "picture":"sumatera2.jpg"
+        },
+        {
+            "id": "3",
+            "name": "Malbi",
+            "ingredients":[
+                {
+                    "bahan": "Ayam bagian paha dan dada",
+                    "jumlah": "6 potong"
+                },
+                {
+                    "bahan": "Santan Instan",
+                    "jumlah": "100 ml"
+                },
+                {
+                    "bahan": "Air",
+                    "jumlah": "350 l"
+                },
+                {
+                    "bahan": "Cengkih",
+                    "jumlah": "4 buah"
+                },
+                {
+                    "bahan": "Kapulaga",
+                    "jumlah": "4 buah"
+                },
+                {
+                    "bahan": "Bubuk Pala",
+                    "jumlah": "1 sdt"
+                },
+                {
+                    "bahan": "Jintan",
+                    "jumlah": "1 sdt"
+                },
+                {
+                    "bahan": "Gula Merah",
+                    "jumlah": "1 balok kecil"
+                },
+                {
+                    "bahan": "Daun Salam",
+                    "jumlah": "2 Lembar"
+                },
+                {
+                    "bahan": "Kecap Manis",
+                    "jumlah": "Secukupnya"
+                },
+                {
+                    "bahan": "Garam",
+                    "jumlah": "Secukupnya"
+                },
+                {
+                    "bahan": "Lada Bubuk",
+                    "jumlah": "Secukupnya"
+                },
+                {
+                    "bahan": "Bawang merah dan putih",
+                    "jumlah": "5 siung"
+                },
+                {
+                    "bahan": "Jahe",
+                    "jumlah": "1 ruas"
+                },
+                {
+                    "bahan": "Bawang merah goreng",
+                    "jumlah": "Secukupnya"
+                }
+            ],
+            "receipt":["Cuci ayam sampai bersih dan buang lemaknya. Tiriskan",
+            "Panaskan minyak. Tumis bumbu halus sampai harum.",
+            "Siapkan wajan beri minyak goreng secukupnya. Tumis bumbu halus bersama daun salam.",
+            "Setelah setengah matang dan mulai muncul aroma harumnya, masukkan cengkih, kapulaga, kayu manis, bubuk pala, dan jintan. Aduk merata.",
+            "Masukkan ayam. Aduk sampai bumbu tercampur rata dan ayam setengah matang",
+            "Tuang santan perlahan, kecap manis, gula merah, larutan asam jawa, garam, lada bubuk, dan kaldu bubuk. Aduk perlahan sampai santan mendidih dan koreksi rasanya",
+            "Tutup wajan sambil sesekali diaduk sampai santan menyusut dan warnanya jadi agak pekat. Matikan api dan tuang malbi ke dalam mangkuk saji",
+            "Malbi ayam khas Palembang siap disajikan dengan taburan bawang merah goreng"],
+            "desc":"Malbi atau gulai malbi merupakan makanan khas Palembang. Sekilas makanan ini mirip dengan rendang sapi khas Minang, karena sama-sama terbuat dari potongan daging sapi dan warnanya juga sama-sama kecokelatan. Namun, tak sedikit yang menganggap makanan ini lebih mirip semur daging. Malbi ini cita rasanya gurih, berasal dari aneka rempah-rempah dan ada sentuhan manisnya.",
+            "regional":"Sumatera",
+            "idPicture": 3,
+            "picture":"sumatera3.jpg"
+        },
+        {
+            "id": "4",
+            "name": "Sate Madura",
+            "ingredients":[
+                {
+                    "bahan": "Daging Ayam",
+                    "jumlah": "500g"
+                },
+                {
+                    "bahan": "Bawang Merah dan Putih",
+                    "jumlah": "1 buah"
+                },
+                {
+                    "bahan": "Jinten",
+                    "jumlah": "1 sendok teh"
+                },
+                {
+                    "bahan": "Gula",
+                    "jumlah": "2 cm (sejengkal)"
+                },
+                {
+                    "bahan": "Garam",
+                    "jumlah": "1 sendok teh"
+                },
+                {
+                    "bahan": "Kecap Manis",
+                    "jumlah": "1 sendok makan"
+                },
+                {
+                    "bahan": "Kacang Tanah",
+                    "jumlah": "2 sendok makan"
+                },
+                {
+                    "bahan": "Cabai",
+                    "jumlah": "4 buah"
+                },
+                {
+                    "bahan": "Gula",
+                    "jumlah": "50 gram"
+                },
+                {
+                    "bahan": "Garam",
+                    "jumlah": "1 sendok teh"
+                },
+                {
+                    "bahan": "Timun",
+                    "jumlah": "4 buah"
+                },
+                {
+                    "bahan": "Air",
+                    "jumlah": "Secukupnya"
+                }
+            ],
+            "receipt":["Siapkan Bumbu Marinasi: Haluskan bawang putih, bawang merah, ketumbar, jinten, gula, garam, dan kecap manis. Marinasi daging dalam campuran ini dan diamkan beberapa jam untuk meresap",
+            "Tusuk Daging: Tusuk potongan daging yang telah dimarinasi dengan bambu atau tusuk sate.",
+            "Panggang Daging: Panggang sate di atas arang atau panggangan hingga matang dan berwarna kecoklatan",
+            "Buat Saus Kacang: Sangrai kacang tanah, haluskan bersama cabai, gula, kecap manis, air, dan garam untuk membuat saus kacang yang kental.",
+            "Sajikan dengan Pelengkap: Sajikan sate dengan saus kacang, potongan bawang merah, irisan timun, dan lontong atau nasi."],
+            "desc":"Sate Madura adalah hidangan khas dari pulau Madura, Indonesia, yang terkenal dengan cita rasa yang khas dan bumbu yang meresap. Hidangan ini terdiri dari potongan daging yang ditusuk dengan bambu atau tusuk sate, kemudian dipanggang atau dibakar dengan arang. Sate Madura biasanya disajikan dengan saus kacang yang kental, potongan bawang merah, irisan timun, dan lontong atau nasi.",
+            "regional":"Sumatera",
+            "idPicture": 4,
+            "picture":"Jawa1.jpeg"
+        },
+        {
+            "id": "5",
+            "name": "Gado-gado",
+            "ingredients": [
+                {
+                    "bahan": "Kentang",
+                    "jumlah": "200g"
+                },
+                {
+                    "bahan": "Kubis",
+                    "jumlah": "100g"
+                },
+                {
+                    "bahan": "Kacang Panjang",
+                    "jumlah": "150g"
+                },
+                {
+                    "bahan": "Tahu",
+                    "jumlah": "200g"
+                },
+                {
+                    "bahan": "Tempe",
+                    "jumlah": "150g"
+                },
+                {
+                    "bahan": "Telur",
+                    "jumlah": "2 buah"
+                },
+                {
+                    "bahan": "Kacang Tanah",
+                    "jumlah": "100g"
+                },
+                {
+                    "bahan": "Lontong",
+                    "jumlah": "200g"
+                },
+                {
+                    "bahan": "Daun Selada",
+                    "jumlah": "Secukupnya"
+                },
+                {
+                    "bahan": "Daun Koriander",
+                    "jumlah": "Secukupnya"
+                }
+            ],
+            "receipt": [
+                "Rebus telur, kentang, kacang panjang, dan tahu hingga matang.",
+                "Potong-potong semua bahan menjadi ukuran yang sesuai.",
+                "Buat saus kacang: Haluskan kacang tanah, campur dengan air, gula, dan garam. Didihkan hingga mengental.",
+                "Susun semua bahan yang telah dipotong di atas piring saji.",
+                "Siram dengan saus kacang yang telah dibuat.",
+                "Hiasi dengan kacang tanah yang dihaluskan, daun selada, dan daun koriander.",
+                "Gado-gado siap disajikan."
+            ],
+            "desc": "Gado-gado adalah hidangan salad sayuran khas Indonesia yang terkenal karena keberagaman bahan dan saus kacangnya yang lezat. Hidangan ini terdiri dari aneka sayuran yang direbus, tahu, tempe, telur, dan lontong atau nasi, disajikan dengan saus kacang kental yang memberikan sentuhan gurih. Gado-gado sering dihias dengan bawang goreng dan kerupuk untuk memberikan tekstur yang renyah. Rasanya yang segar dan paduan cita rasa manis, asin, dan gurih membuat gado-gado menjadi hidangan yang disukai oleh banyak orang",
+            "regional": "Jawa",
+            "idPicture": 5,
+            "picture": "Jawa2.jpeg"
+        },
+        {
+            "id": "6",
+            "name": "Lumpia Semarang",
+            "ingredients": [
+                {
+                    "bahan": "Daging Ayam",
+                    "jumlah": "300g, cincang halus"
+                },
+                {
+                    "bahan": "Bengkoang",
+                    "jumlah": "200g, parut kasar"
+                },
+                {
+                    "bahan": "Tauge",
+                    "jumlah": "100g"
+                },
+                {
+                    "bahan": "Wortel",
+                    "jumlah": "100g, parut kasar"
+                },
+                {
+                    "bahan": "Daun Bawang",
+                    "jumlah": "2 batang, cincang halus"
+                },
+                {
+                    "bahan": "Bawang Putih",
+                    "jumlah": "3 siung, cincang halus"
+                },
+                {
+                    "bahan": "Minyak Goreng",
+                    "jumlah": "2 sendok makan"
+                },
+                {
+                    "bahan": "Garam",
+                    "jumlah": "1/2 sendok teh"
+                },
+                {
+                    "bahan": "Merica",
+                    "jumlah": "1/4 sendok teh"
+                },
+                {
+                    "bahan": "Kecap Manis",
+                    "jumlah": "2 sendok makan"
+                },
+                {
+                    "bahan": "Kulit Lumpia",
+                    "jumlah": "Secukupnya"
+                },
+                {
+                    "bahan": "Telur Ayam",
+                    "jumlah": "1 buah, kocok untuk perekat"
+                },
+                {
+                    "bahan": "Minyak untuk menggoreng",
+                    "jumlah": "Secukupnya"
+                }
+            ],
+            "receipt": [
+                "Panaskan minyak goreng, tumis bawang putih hingga harum.",
+                "Tambahkan daging ayam cincang, aduk hingga berubah warna.",
+                "Masukkan bengkoang, tauge, wortel, daun bawang. Tumis hingga sayuran layu.",
+                "Tambahkan garam, merica, dan kecap manis. Aduk rata, masak hingga bumbu meresap.",
+                "Ambil selembar kulit lumpia, beri isian di bagian tengahnya.",
+                "Lipat bagian bawahnya, kemudian samping kanan dan kiri. Gulung hingga membentuk lumpia.",
+                "Gunakan telur ayam yang telah dikocok sebagai perekat pada ujung kulit lumpia.",
+                "Panaskan minyak, goreng lumpia hingga kecoklatan dan renyah.",
+                "Angkat, tiriskan, dan sajikan lumpia Semarang."
+            ],
+            "desc": "Lumpia Semarang adalah kuliner khas dari Semarang, Jawa Tengah. Hidangan ini terdiri dari kulit lumpia yang diisi dengan campuran daging ayam cincang, bengkoang, tauge, wortel, dan daun bawang. Tumisan ini dibungkus dengan rapat dalam kulit lumpia dan digoreng hingga kecoklatan. Lumpia Semarang memiliki cita rasa yang lezat dan sering disajikan sebagai camilan atau hidangan pendamping.",
+            "regional": "Jawa",
+            "idPicture": 6,
+            "picture": "Jawa3.jpeg"
+        },
+        {
+            "id": "7",
+            "name": "Tempoyak",
+            "ingredients": [
+                {
+                    "bahan": "Tempoyak (fermentasi durian)",
+                    "jumlah": "300g"
+                },
+                {
+                    "bahan": "Ikan Patin (opsional)",
+                    "jumlah": "200g, potong kecil"
+                },
+                {
+                    "bahan": "Daun Jeruk",
+                    "jumlah": "3 lembar"
+                },
+                {
+                    "bahan": "Cabai Merah",
+                    "jumlah": "5 buah, iris halus"
+                },
+                {
+                    "bahan": "Asam Jawa",
+                    "jumlah": "1 sendok makan, larutkan dalam sedikit air"
+                },
+                {
+                    "bahan": "Garam",
+                    "jumlah": "1/2 sendok teh"
+                },
+                {
+                    "bahan": "Gula",
+                    "jumlah": "1 sendok teh"
+                },
+                {
+                    "bahan": "Minyak Goreng",
+                    "jumlah": "2 sendok makan"
+                }
+            ],
+            "receipt": [
+                "Panaskan minyak, tumis cabai merah hingga harum.",
+                "Tambahkan daun jeruk, ikan patin (jika digunakan), dan tempoyak. Aduk rata.",
+                "Masukkan larutan asam jawa, garam, dan gula. Aduk hingga bumbu meresap.",
+                "Masak hingga matang dan berminyak.",
+                "Sajikan tempoyak hangat sebagai pelengkap nasi."
+            ],
+            "desc": "Tempoyak adalah hidangan khas Kalimantan Barat yang terbuat dari fermentasi durian. Biasanya disajikan sebagai lauk pelengkap nasi. Tempoyak memiliki cita rasa yang khas dan bau yang kuat karena fermentasi durian. Hidangan ini dapat diperkaya dengan tambahan ikan patin dan bumbu-bumbu yang memberikan rasa yang lezat dan gurih.",
+            "regional": "Kalimantan",
+            "idPicture": 7,
+            "picture": "Kalimantan1.jpeg"
+        },        
+        {
+            "id": "8",
+            "name": "Pengkang Kalimantan Barat",
+            "ingredients": [
+                {
+                    "bahan": "Ikan Tenggiri",
+                    "jumlah": "300g, cincang halus"
+                },
+                {
+                    "bahan": "Bumbu Pengkang",
+                    "jumlah": "100g, haluskan (bawang merah, bawang putih, kunyit, ketumbar, lengkuas)"
+                },
+                {
+                    "bahan": "Daun Jeruk",
+                    "jumlah": "2 lembar"
+                },
+                {
+                    "bahan": "Serai",
+                    "jumlah": "1 batang, memarkan"
+                },
+                {
+                    "bahan": "Asam Kandis",
+                    "jumlah": "3 buah"
+                },
+                {
+                    "bahan": "Kelapa Parut",
+                    "jumlah": "100g"
+                },
+                {
+                    "bahan": "Daun Pisang (untuk membungkus)",
+                    "jumlah": "Secukupnya"
+                },
+                {
+                    "bahan": "Garam",
+                    "jumlah": "1/2 sendok teh"
+                },
+                {
+                    "bahan": "Gula",
+                    "jumlah": "1 sendok teh"
+                },
+                {
+                    "bahan": "Minyak Goreng",
+                    "jumlah": "2 sendok makan"
+                }
+            ],
+            "receipt": [
+                "Panaskan minyak, tumis bumbu pengkang hingga harum.",
+                "Tambahkan ikan tenggiri cincang, aduk rata.",
+                "Masukkan daun jeruk, serai, dan asam kandis. Aduk hingga ikan matang.",
+                "Tambahkan kelapa parut, garam, dan gula. Aduk rata dan masak hingga matang.",
+                "Siapkan daun pisang, ambil sebagian adonan pengkang dan bungkus dengan daun pisang.",
+                "Kukus hingga pengkang matang dan tercium aroma harum.",
+                "Sajikan pengkang Kalimantan Barat sebagai hidangan utama."
+            ],
+            "desc": "Pengkang Kalimantan Barat adalah hidangan tradisional yang terbuat dari ikan tenggiri yang dicincang halus dan dibumbui dengan rempah-rempah khas. Hidangan ini kemudian dibungkus dengan daun pisang dan dikukus hingga matang. Pengkang memiliki cita rasa yang unik dan gurih, membuatnya menjadi hidangan yang populer di Kalimantan Barat.",
+            "regional": "Kalimantan",
+            "idPicture": 8,
+            "picture": "Kalimantan2.jpg"
+        }, 
+        {
+            "id": "9",
+            "name": "Soto Banjar",
+            "ingredients": [
+                {
+                    "bahan": "Daging Ayam",
+                    "jumlah": "300g, potong kecil"
+                },
+                {
+                    "bahan": "Bawang Merah",
+                    "jumlah": "3 buah, iris tipis"
+                },
+                {
+                    "bahan": "Bawang Putih",
+                    "jumlah": "3 siung, cincang halus"
+                },
+                {
+                    "bahan": "Serai",
+                    "jumlah": "1 batang, memarkan"
+                },
+                {
+                    "bahan": "Daun Jeruk",
+                    "jumlah": "2 lembar"
+                },
+                {
+                    "bahan": "Kunyit",
+                    "jumlah": "2 cm, memarkan"
+                },
+                {
+                    "bahan": "Ketumbar",
+                    "jumlah": "1 sendok teh, sangrai dan haluskan"
+                },
+                {
+                    "bahan": "Garam",
+                    "jumlah": "1 sendok teh"
+                },
+                {
+                    "bahan": "Merica",
+                    "jumlah": "1/2 sendok teh"
+                },
+                {
+                    "bahan": "Minyak Goreng",
+                    "jumlah": "2 sendok makan"
+                },
+                {
+                    "bahan": "Air",
+                    "jumlah": "1.5 liter"
+                },
+                {
+                    "bahan": "Soun",
+                    "jumlah": "100g, rendam air panas"
+                },
+                {
+                    "bahan": "Telur Rebus",
+                    "jumlah": "2 buah, belah dua"
+                },
+                {
+                    "bahan": "Daun Bawang",
+                    "jumlah": "2 batang, iris halus"
+                },
+                {
+                    "bahan": "Bawang Goreng",
+                    "jumlah": "Secukupnya"
+                },
+                {
+                    "bahan": "Kecap Manis",
+                    "jumlah": "Secukupnya"
+                },
+                {
+                    "bahan": "Lime",
+                    "jumlah": "4 buah, belah menjadi dua"
+                }
+            ],
+            "receipt": [
+                "Panaskan minyak, tumis bawang merah dan bawang putih hingga harum.",
+                "Tambahkan daging ayam, aduk hingga berubah warna.",
+                "Masukkan serai, daun jeruk, kunyit, ketumbar, garam, dan merica. Aduk rata.",
+                "Tambahkan air, masak hingga mendidih dan daging empuk.",
+                "Siapkan mangkuk, susun soun, telur rebus, daun bawang, dan bawang goreng.",
+                "Tuangkan kuah soto ke dalam mangkuk.",
+                "Sajikan Soto Banjar dengan tambahan kecap manis dan lime.",
+                "Nikmati Soto Banjar hangat!"
+            ],
+            "desc": "Soto Banjar adalah hidangan sup khas Kalimantan Selatan, tetapi juga cukup populer di Kalimantan Timur. Hidangan ini mencerminkan keanekaragaman rempah-rempah dan cita rasa khas Indonesia. Soto Banjar memiliki kuah yang kaya rasa, biasanya disajikan dengan daging ayam, soun, telur rebus, dan bumbu-bumbu yang melimpah.",
+            "regional": "Kalimantan",
+            "idPicture": 9,
+            "picture": "Kalimantan3.jpg"
+        },
+        {
+            "id": "10",
+            "name": "Ayam Betutu",
+            "ingredients": [
+                {
+                    "bahan": "Ayam Kampung",
+                    "jumlah": "1 ekor (sekitar 1.5 kg), potong menjadi bagian-bagian kecil"
+                },
+                {
+                    "bahan": "Bawang Merah dan Putih",
+                    "jumlah": "4 buah"
+                },
+                {
+                    "bahan": "Kunyit",
+                    "jumlah": "4 cm"
+                },
+                {
+                    "bahan": "Bawang Bombay",
+                    "jumlah": "2 buah, iris tipis"
+                },
+                {
+                    "bahan": "Daun Salam",
+                    "jumlah": "4 lembar"
+                },
+                {
+                    "bahan": "Daun Jeruk",
+                    "jumlah": "4 lembar"
+                },
+                {
+                    "bahan": "Serai",
+                    "jumlah": "2 batang, memarkan"
+                },
+                {
+                    "bahan": "Kelapa Parut",
+                    "jumlah": "200g, sangrai hingga kuning keemasan"
+                },
+                {
+                    "bahan": "Gula Merah",
+                    "jumlah": "100g, serut halus"
+                },
+                {
+                    "bahan": "Garam",
+                    "jumlah": "2 sendok teh"
+                },
+                {
+                    "bahan": "Air Matang",
+                    "jumlah": "500ml"
+                },
+                {
+                    "bahan": "Daun Pisang",
+                    "jumlah": "Secukupnya, untuk membungkus"
+                },
+                {
+                    "bahan": "Tusuk Sate",
+                    "jumlah": "Secukupnya, untuk menjahit daun pisang"
+                }
+            ],
+            "receipt": [
+                "Haluskan bawang merah dan bawang putih.",
+                "Campurkan bumbu halus dengan bumbu lainnya: kunyit, bawang bombay, daun salam, daun jeruk, serai, kelapa parut, gula merah, garam, dan air matang. Aduk rata.",
+                "Bersihkan ayam, lumuri dengan bumbu yang telah dihaluskan.",
+                "Siapkan daun pisang, letakkan potongan ayam yang telah dilumuri bumbu di atasnya.",
+                "Bungkus ayam dengan rapat menggunakan daun pisang dan jahit dengan tusuk sate.",
+                "Bakar ayam betutu di atas bara api hingga matang, atau panggang dalam oven selama 4-5 jam dengan suhu 160°C.",
+                "Ayam Betutu siap disajikan. Nikmati dengan nasi putih dan sambal matah."
+            ],
+            "desc": "Ayam Betutu adalah hidangan khas Bali yang terkenal dengan bumbu rempah-rempahnya yang kaya. Ayam Betutu disajikan sebagai hidangan istimewa pada acara-acara tertentu dan upacara adat di Bali. Proses memasaknya yang memakan waktu membuat Ayam Betutu memiliki cita rasa yang lezat dan bumbu yang meresap hingga ke dalam daging ayam.",
+            "regional": "Balinusra",
+            "idPicture": 10,
+            "picture": "Balinusra1.jpeg"
+        },
+        {
+            "id": "11",
+            "name": "Ayam Taliwang",
+            "ingredients": [
+                {
+                    "bahan": "Ayam",
+                    "jumlah": "1 ekor potong kecil"
+                },
+                {
+                    "bahan": "Santan",
+                    "jumlah": "500 ml"
+                },
+                {
+                    "bahan": "Terasi Bakar",
+                    "jumlah": "2 sdt"
+                },
+                {
+                    "bahan": "Tomat",
+                    "jumlah": "200 g"
+                },
+                {
+                    "bahan": "Bawang Merah",
+                    "jumlah": "10 butir"
+                },
+                {
+                    "bahan": "Bawang Putih",
+                    "jumlah": "8 siung"
+                },
+                {
+                    "bahan": "Kunyit",
+                    "jumlah": "4 cm"
+                },
+                {
+                    "bahan": "Bawang Bombay",
+                    "jumlah": "2 buah, iris tipis"
+                },
+                {
+                    "bahan": "Daun Salam",
+                    "jumlah": "4 lembar"
+                },
+                {
+                    "bahan": "Daun Jeruk",
+                    "jumlah": "4 lembar"
+                },
+                {
+                    "bahan": "Serai",
+                    "jumlah": "2 batang, memarkan"
+                },
+                {
+                    "bahan": "Kelapa Parut",
+                    "jumlah": "200g, sangrai hingga kuning keemasan"
+                },
+                {
+                    "bahan": "Gula Merah",
+                    "jumlah": "100g, serut halus"
+                },
+                {
+                    "bahan": "Garam",
+                    "jumlah": "2 sendok teh"
+                },
+                {
+                    "bahan": "Air Matang",
+                    "jumlah": "500ml"
+                },
+                {
+                    "bahan": "Daun Pisang",
+                    "jumlah": "Secukupnya, untuk membungkus"
+                },
+                {
+                    "bahan": "Tusuk Sate",
+                    "jumlah": "Secukupnya, untuk menjahit daun pisang"
+                }
+            ],
+            "receipt": [
+                "Haluskan bawang merah, bawang putih, dan kunyit.",
+                "Campurkan bumbu halus dengan bumbu lainnya: bawang bombay, daun salam, daun jeruk, serai, kelapa parut, gula merah, garam, dan air matang. Aduk rata.",
+                "Bersihkan ayam, lumuri dengan bumbu yang telah dihaluskan.",
+                "Siapkan daun pisang, letakkan potongan ayam yang telah dilumuri bumbu di atasnya.",
+                "Bungkus ayam dengan rapat menggunakan daun pisang dan jahit dengan tusuk sate.",
+                "Bakar ayam Taliwang di atas bara api hingga matang atau panggang dalam oven selama 1-1.5 jam dengan suhu 180°C.",
+                "Ayam Taliwang siap disajikan. Sajikan dengan plecing kangkung dan nasi putih."
+            ],
+            "desc": "Ayam Taliwang adalah hidangan khas Lombok, Nusa Tenggara Barat, Indonesia. Ayam Taliwang dikenal dengan cita rasa pedas khasnya dan bumbu yang melimpah. Proses pemanggangan menggunakan daun pisang memberikan aroma khas pada ayam, membuatnya menjadi hidangan yang lezat dan menggugah selera.",
+            "regional": "Balinusra",
+            "idPicture": 11,
+            "picture": "Balinusra2.jpeg"
+        },
+        {
+            "id": "12",
+            "name": "Kolo",
+            "ingredients": [
+                {
+                    "bahan": "Beras",
+                    "jumlah": "2 gelas"
+                },
+                {
+                    "bahan": "Kelapa Parut",
+                    "jumlah": "1/2 butir"
+                },
+                {
+                    "bahan": "Daun Pisang",
+                    "jumlah": "Secukupnya"
+                },
+                {
+                    "bahan": "Garam",
+                    "jumlah": "Secukupnya"
+                },
+                {
+                    "bahan": "Air Matang",
+                    "jumlah": "Secukupnya"
+                }
+            ],
+            "receipt": [
+                "Cuci beras hingga bersih dan tiriskan.",
+                "Campur beras dengan kelapa parut, garam, dan air secukupnya. Aduk hingga merata.",
+                "Ambil selembar daun pisang, letakkan campuran beras di atasnya, lalu bungkus rapat.",
+                "Ikat menggunakan tali atau anyaman daun pisang untuk membuat paket kecil.",
+                "Bakar di atas api atau bara hingga nasi matang dan daun pisang berubah warna.",
+                "Kolo (Nasi Bakar) siap disajikan. Buka bungkus daun pisang dan hidangkan nasi bakar ini."
+            ],
+            "desc": "Kolo atau nasi bakar adalah salah satu makanan khas dari daerah Nusa Tenggara Timur (NTT), khususnya Manggarai. Kolo dimasak dengan cara membungkus nasi dan bumbu dalam daun pisang, kemudian dibakar. Hidangan ini sering dihadirkan dalam acara-adat adat seperti pesta penti atau syukuran panen.",
+            "regional": "Balinusra",
+            "idPicture": 12,
+            "picture": "Balinusra3.jpg"
+        }, 
+        {
+            "id": "13",
+            "name": "Coto Makassar",
+            "ingredients": [
+                {
+                    "bahan": "Daging Sapi (bagian tetelan atau iga)",
+                    "jumlah": "500g, potong kecil"
+                },
+                {
+                    "bahan": "Kacang Tanah",
+                    "jumlah": "100g, sangrai dan haluskan"
+                },
+                {
+                    "bahan": "Beras Ketan",
+                    "jumlah": "50g, sangrai dan haluskan"
+                },
+                {
+                    "bahan": "Jahe",
+                    "jumlah": "1 ruas jari, memarkan"
+                },
+                {
+                    "bahan": "Lengkuas",
+                    "jumlah": "2 cm, memarkan"
+                },
+                {
+                    "bahan": "Serai",
+                    "jumlah": "2 batang, memarkan"
+                },
+                {
+                    "bahan": "Daun Salam",
+                    "jumlah": "2 lembar"
+                },
+                {
+                    "bahan": "Daun Jeruk",
+                    "jumlah": "2 lembar"
+                },
+                {
+                    "bahan": "Gula Palm",
+                    "jumlah": "1-2 sendok makan, serut halus"
+                },
+                {
+                    "bahan": "Air",
+                    "jumlah": "1,5 liter"
+                },
+                {
+                    "bahan": "Minyak Goreng",
+                    "jumlah": "2 sendok makan, untuk menumis"
+                },
+                {
+                    "bahan": "Bawang Goreng",
+                    "jumlah": "Secukupnya, untuk taburan"
+                },
+                {
+                    "bahan": "Daun Bawang",
+                    "jumlah": "Secukupnya, iris halus untuk taburan"
+                },
+                {
+                    "bahan": "Lime",
+                    "jumlah": "Secukupnya, potong menjadi wedges"
+                },
+                {
+                    "bahan": "Koya (bubuk cabe kering)",
+                    "jumlah": "Secukupnya"
+                }
+            ],
+            "receipt": [
+                "Rebus daging sapi dalam air mendidih hingga empuk. Tiriskan dan potong-potong daging sesuai selera.",
+                "Tumis bumbu halus (jahe, lengkuas, serai, daun salam, daun jeruk) dengan minyak hingga harum.",
+                "Masukkan potongan daging sapi, aduk rata dan tumis hingga daging berubah warna.",
+                "Tambahkan air, kacang tanah halus, beras ketan halus, dan gula palm. Aduk rata.",
+                "Masak coto dengan api kecil hingga bumbu meresap dan kuah mengental. Saring kuah coto.",
+                "Kembali masukkan kuah coto yang sudah disaring ke dalam panci. Didihkan hingga coto matang dan kuah kental.",
+                "Sajikan coto Makassar dalam mangkuk, beri taburan bawang goreng, daun bawang, dan koya.",
+                "Hidangkan coto Makassar dengan potongan lime."
+            ],
+            "desc": "Coto Makassar adalah hidangan khas Sulawesi Selatan, terutama Makassar. Hidangan ini terbuat dari daging sapi yang dimasak dalam bumbu kacang dan rempah-rempah yang khas. Coto Makassar biasanya disajikan sebagai makanan berat dan dihidangkan dengan ketupat atau nasi ketan.",
+            "regional": "Sulawesi",
+            "idPicture": 13,
+            "picture": "Sulawesi1.jpg"
+        },
+        {
+            "id": "14",
+            "name": "Sate Gogos Pakea",
+            "ingredients": [
+                {
+                    "bahan": "Daging Sapi (bagian tetelan atau iga)",
+                    "jumlah": "500g, potong kecil"
+                },
+                {
+                    "bahan": "Kecap Manis",
+                    "jumlah": "3 sendok makan"
+                },
+                {
+                    "bahan": "Minyak Goreng",
+                    "jumlah": "2 sendok makan, untuk marinasi"
+                },
+                {
+                    "bahan": "Garam",
+                    "jumlah": "1 sendok teh"
+                },
+                {
+                    "bahan": "Merica",
+                    "jumlah": "1/2 sendok teh"
+                },
+                {
+                    "bahan": "Bambu Tusuk Sate",
+                    "jumlah": "Secukupnya, rendam air agar tidak gosong saat dipanggang"
+                },
+                {
+                    "bahan": "Bumbu Kacang:",
+                    "jumlah": "Secukupnya"
+                },
+                {
+                    "bahan": "Kacang Tanah",
+                    "jumlah": "100g, sangrai dan haluskan"
+                },
+                {
+                    "bahan": "Cabe Merah",
+                    "jumlah": "5 buah, buang biji (sesuai selera kepedasan)"
+                },
+                {
+                    "bahan": "Bawang Putih",
+                    "jumlah": "3 siung"
+                },
+                {
+                    "bahan": "Gula Merah",
+                    "jumlah": "50g"
+                },
+                {
+                    "bahan": "Gula Putih",
+                    "jumlah": "1 sendok makan"
+                },
+                {
+                    "bahan": "Garam",
+                    "jumlah": "1/2 sendok teh"
+                },
+                {
+                    "bahan": "Air",
+                    "jumlah": "100ml"
+                }
+            ],
+            "receipt": [
+                "Campurkan daging sapi dengan kecap manis, minyak goreng, garam, dan merica. Diamkan selama minimal 30 menit untuk proses marinasi.",
+                "Tusukkan potongan daging ke tusuk sate yang telah direndam air.",
+                "Panggang sate di atas bara api atau grill hingga matang dan berwarna kecoklatan.",
+                "Sajikan sate dengan bumbu kacang.",
+                "Untuk bumbu kacang: Haluskan kacang tanah, cabe merah, bawang putih, dan gula merah. Tambahkan gula putih, garam, dan air. Aduk rata.",
+                "Panaskan bumbu kacang di atas api hingga matang dan kental. Angkat dan sajikan bersama sate."
+            ],
+            "desc": "Sate Gogos Pakea adalah hidangan sate khas Sulawesi Selatan, Indonesia. Daging sapi yang telah dimarinasi kemudian dipanggang dan disajikan dengan bumbu kacang yang lezat. Hidangan ini populer dan sering ditemui di berbagai acara atau warung makan di Sulawesi Selatan.",
+            "regional": "Sulawesi",
+            "idPicture": 14,
+            "picture": "Sulawesi3.jpg"
+        },
+        {
+            "id": "15",
+            "name": "Bubur Manado",
+            "ingredients": [
+                {
+                    "bahan": "Beras",
+                    "jumlah": "1 cup, cuci bersih"
+                },
+                {
+                    "bahan": "Daun Salam",
+                    "jumlah": "2 lembar"
+                },
+                {
+                    "bahan": "Serai",
+                    "jumlah": "2 batang, memarkan"
+                },
+                {
+                    "bahan": "Daun Jeruk",
+                    "jumlah": "2 lembar"
+                },
+                {
+                    "bahan": "Garam",
+                    "jumlah": "1 sendok teh"
+                },
+                {
+                    "bahan": "Kaldu Ayam",
+                    "jumlah": "1 liter"
+                },
+                {
+                    "bahan": "Kelapa Parut",
+                    "jumlah": "100g, kukus dan ambil santannya"
+                },
+                {
+                    "bahan": "Tauge",
+                    "jumlah": "100g, seduh air panas"
+                },
+                {
+                    "bahan": "Daun Bawang",
+                    "jumlah": "2 batang, iris halus"
+                },
+                {
+                    "bahan": "Bawang Goreng",
+                    "jumlah": "Secukupnya, untuk taburan"
+                },
+                {
+                    "bahan": "Sambal",
+                    "jumlah": "Secukupnya"
+                }
+            ],
+            "receipt": [
+                "Rebus beras dengan kaldu ayam, daun salam, serai, daun jeruk, dan garam hingga menjadi bubur. Aduk sesekali agar tidak lengket di dasar panci.",
+                "Setelah beras menjadi bubur, tambahkan kelapa parut yang sudah diambil santannya. Aduk rata dan masak hingga beras benar-benar matang.",
+                "Sajikan bubur dalam mangkuk, beri tauge, daun bawang, bawang goreng, dan sambal sesuai selera.",
+                "Bubur Manado siap dinikmati, biasanya disajikan sebagai sarapan atau makanan hangat di waktu santai."
+            ],
+            "desc": "Bubur Manado adalah hidangan khas dari Sulawesi Utara, Indonesia. Bubur ini terbuat dari beras yang dimasak dengan kaldu ayam, daun salam, serai, dan daun jeruk. Diberi tambahan kelapa parut, tauge, daun bawang, bawang goreng, dan sambal menjadikan Bubur Manado nikmat dan kaya akan cita rasa.",
+            "regional": "Sulawesi",
+            "idPicture": 15,
+            "picture": "Sulawesi3.jpg"
+        },
+        {
+            "id": "16",
+            "name": "Papeda Ikan Kuah Kuning",
+            "ingredients": [
+                {
+                    "bahan": "Papeda",
+                    "jumlah": "250g, serbuk sagu murni"
+                },
+                {
+                    "bahan": "Ikan",
+                    "jumlah": "1 ekor"
+                },
+                {
+                    "bahan": "Santan",
+                    "jumlah": "500ml"
+                },
+                {
+                    "bahan": "Kunyit",
+                    "jumlah": "2 cm, parut atau memarkan"
+                },
+                {
+                    "bahan": "Jahe",
+                    "jumlah": "1 ruas jari, memarkan"
+                },
+                {
+                    "bahan": "Lengkuas",
+                    "jumlah": "2 cm, memarkan"
+                },
+                {
+                    "bahan": "Daun Jeruk",
+                    "jumlah": "2 lembar"
+                },
+                {
+                    "bahan": "Garam",
+                    "jumlah": "Secukupnya"
+                },
+                {
+                    "bahan": "Air",
+                    "jumlah": "1 liter"
+                },
+                {
+                    "bahan": "Minyak Goreng",
+                    "jumlah": "2 sendok makan, untuk menumis"
+                },
+                {
+                    "bahan": "Bawang Merah",
+                    "jumlah": "5 butir, iris tipis"
+                },
+                {
+                    "bahan": "Bawang Putih",
+                    "jumlah": "3 siung, cincang halus"
+                },
+                {
+                    "bahan": "Cabai Merah",
+                    "jumlah": "3 buah, iris tipis (sesuai selera)"
+                },
+                {
+                    "bahan": "Daun Bawang",
+                    "jumlah": "2 batang, iris halus"
+                },
+                {
+                    "bahan": "Jeruk Nipis",
+                    "jumlah": "Secukupnya, untuk penyajian"
+                }
+            ],
+            "receipt": [
+                "Siapkan papeda, seduh dengan air secukupnya, aduk hingga rata dan setengah matang.",
+                "Rebus air dalam panci, masukkan kunyit, jahe, lengkuas, daun jeruk, dan garam. Biarkan mendidih hingga bumbu meresap.",
+                "Masukkan potongan ikan ke dalam kuah kuning, masak hingga ikan matang.",
+                "Tambahkan santan, masak hingga kuah mengental dan bumbu meresap ke dalam ikan.",
+                "Panaskan minyak, tumis bawang merah, bawang putih, cabai merah, dan daun bawang hingga harum.",
+                "Tuangkan tumisan ke dalam kuah ikan, aduk rata. Biarkan sebentar hingga bumbu meresap.",
+                "Sajikan papeda dengan ikan kuah kuning. Hidangkan dengan irisan jeruk nipis."
+            ],
+            "desc": "Papeda Ikan Kuah Kuning adalah hidangan khas Papua, terutama di wilayah Maluku dan Papua Barat. Papeda, yang terbuat dari sagu, disajikan dengan kuah kuning yang kaya rempah dan ikan segar. Hidangan ini memiliki cita rasa lezat dan aroma harum rempah yang khas.",
+            "regional": "Papuamaluku",
+            "idPicture": 16,
+            "picture": "Papuamaluku1.jpg"
+        },
+        {
+            "id": "17",
+            "name": "Kohu-kohu",
+            "ingredients": [
+                {
+                    "bahan": "Ikan Tuna",
+                    "jumlah": "200g, potong dadu kecil"
+                },
+                {
+                    "bahan": "Kelapa Parut",
+                    "jumlah": "1/2 butir, serut halus"
+                },
+                {
+                    "bahan": "Jeruk Nipis",
+                    "jumlah": "3 buah, ambil airnya"
+                },
+                {
+                    "bahan": "Bawang Merah",
+                    "jumlah": "5 butir, iris tipis"
+                },
+                {
+                    "bahan": "Bawang Putih",
+                    "jumlah": "3 siung, cincang halus"
+                },
+                {
+                    "bahan": "Cabai Merah",
+                    "jumlah": "3 buah, iris tipis (sesuai selera)"
+                },
+                {
+                    "bahan": "Daun Bawang",
+                    "jumlah": "2 batang, iris halus"
+                },
+                {
+                    "bahan": "Ketumbar Bubuk",
+                    "jumlah": "1 sendok teh"
+                },
+                {
+                    "bahan": "Garam",
+                    "jumlah": "1/2 sendok teh"
+                },
+                {
+                    "bahan": "Air Es",
+                    "jumlah": "Secukupnya"
+                }
+            ],
+            "receipt": [
+                "Campur potongan ikan tuna, kelapa parut, air jeruk nipis, bawang merah, bawang putih, cabai merah, daun bawang, ketumbar bubuk, dan garam dalam satu wadah. Aduk rata.",
+                "Sajikan Kohu-kohu dalam mangkuk atau piring saji.",
+                "Tambahkan air es secukupnya sebelum menyajikan.",
+                "Kohu-kohu siap dinikmati sebagai hidangan segar dan lezat."
+            ],
+            "desc": "Kohu-kohu adalah hidangan khas dari Maluku, Indonesia. Hidangan ini terbuat dari ikan tuna segar yang dicampur dengan kelapa parut, bumbu rempah, dan bahan lainnya. Kohu-kohu biasanya disajikan sebagai hidangan pembuka atau lauk pauk yang menyegarkan.",
+            "regional": "Papuamaluku",
+            "idPicture": 17,
+            "picture": "Papuamaluku2.jpg"
+        },
+        {
+            "id": "18",
+            "name": "Ikan Bungkus Papua",
+            "ingredients": [
+                {
+                    "bahan": "Cabai Merah Besar",
+                    "jumlah": "3 buah, dipotong bulat"
+                },
+                {
+                    "bahan": "Belimbing Wuluh",
+                    "jumlah": "5 buah, diiris tipis"
+                },
+                {
+                    "bahan": "Gula Pasir",
+                    "jumlah": "1 sendok teh"
+                },
+                {
+                    "bahan": "Ikan Bandeng Segar",
+                    "jumlah": "650g, dipotong-potong"
+                },
+                {
+                    "bahan": "Daun Salam",
+                    "jumlah": "5 lembar"
+                },
+                {
+                    "bahan": "Lengkuas",
+                    "jumlah": "3 cm, diiris tipis"
+                },
+                {
+                    "bahan": "Cabai Rawit",
+                    "jumlah": "20 buah, dipotong-potong"
+                },
+                {
+                    "bahan": "Serai",
+                    "jumlah": "2 batang, diiris halus"
+                },
+                {
+                    "bahan": "Garam",
+                    "jumlah": "1 sendok makan"
+                },
+                {
+                    "bahan": "Kaldu Ayam Bubuk",
+                    "jumlah": "1 sendok teh"
+                },
+                {
+                    "bahan": "Cabai Hijau Besar",
+                    "jumlah": "3 buah, diiris halus"
+                },
+                {
+                    "bumbu": "Merica",
+                    "jumlah": "1/2 sendok teh"
+                },
+                {
+                    "bumbu": "Ketumbar",
+                    "jumlah": "1 sendok teh"
+                },
+                {
+                    "bumbu": "Kemiri",
+                    "jumlah": "4 butir"
+                },
+                {
+                    "bumbu": "Bawang Putih",
+                    "jumlah": "6 siung"
+                },
+                {
+                    "bumbu": "Bawang Merah",
+                    "jumlah": "12 butir"
+                },
+                {
+                    "bumbu": "Cabai Merah Keriting",
+                    "jumlah": "3 buah"
+                }
+            ],
+            "receipt": [
+                "Haluskan bumbu (merica, ketumbar, kemiri, bawang putih, bawang merah, cabai merah keriting).",
+                "Campur bumbu halus dengan cabai merah besar, belimbing wuluh, gula pasir, ikan bandeng, daun salam, lengkuas, cabai rawit, serai, garam, kaldu ayam bubuk, dan cabai hijau besar. Aduk rata.",
+                "Siapkan daun talas, letakkan campuran ikan di atasnya.",
+                "Bungkus ikan dengan rapat menggunakan daun talas.",
+                "Bakar ikan bungkus di atas bara api atau panggang dalam oven hingga ikan matang dan bumbu meresap.",
+                "Ikan Bungkus Papua siap disajikan. Buka bungkus daun talas dan hidangkan ikan ini."
+            ],
+            "desc": "Di Papua, pepes ikan disebut sebagai ikan bungkus. Walaupun begitu, ikan bungkus memiliki beberapa perbedaan dengan pepes ikan pada umumnya. Perbedaannya itu dapat dilihat dengan jelas dari daun pembungkus yang digunakan. Orang Papua tidak menggunakan daun pisang untuk membuat pepes, melainkan daun talas.",
+            "regional": "Papuamaluku",
+            "idPicture": 18,
+            "picture": "Papuamaluku3.jpg"
+        }    
+    ]
+}

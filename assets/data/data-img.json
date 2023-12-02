@@ -1,0 +1,76 @@
+{
+    "thumbnail":[
+        {
+            "id": 1,
+            "fileName": "Sumatera1.jpeg"
+        },
+        {
+            "id": 2,
+            "fileName": "Sumatera2.jpg"
+        },
+        {
+            "id": 3,
+            "fileName": "Sumatera3.jpg"
+        },
+        {
+            "id": 4,
+            "fileName": "Jawa1.jpeg"
+        },
+        {
+            "id": 5,
+            "fileName": "Jawa2.jpeg"
+        },
+        {
+            "id": 6,
+            "fileName": "Jawa3.jpeg"
+        },
+        {
+            "id": 7,
+            "fileName": "Kalimantan1.jpeg"
+        },
+        {
+            "id": 8,
+            "fileName": "Kalimantan2.jpg"
+        },
+        {
+            "id": 9,
+            "fileName": "Kalimantan3.jpg"
+        },
+        {
+            "id": 10,
+            "fileName": "Balinusra1.jpeg"
+        },
+        {
+            "id": 11,
+            "fileName": "Balinusra2.jpeg"
+        },
+        {
+            "id": 12,
+            "fileName": "Balinusra3.jpg"
+        },
+        {
+            "id": 13,
+            "fileName": "Sulawesi1.jpg"
+        },
+        {
+            "id": 14,
+            "fileName": "Sulawesi2.jpg"
+        },
+        {
+            "id": 15,
+            "fileName": "Sulawesi3.jpg"
+        },
+        {
+            "id": 16,
+            "fileName": "Papuamaluku1.jpg"
+        },
+        {
+            "id": 17,
+            "fileName": "Papuamaluku2.jpeg"
+        },
+        {
+            "id": 18,
+            "fileName": "Papuamaluku3.jpg"
+        }
+    ]
+}
