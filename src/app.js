@@ -12,7 +12,20 @@ app.use(cors());
 app.use(Express.static(path.join(__dirname, 'images')));
 
 app.get("/", (req, res) => {
-    res.send("Lezatara API");
+    res.send([
+    {
+        "Title": "Documentation",
+        "BASE URL": "https://lezatara-backend.vercel.app",
+        "GET": {
+            "Get All Foods": "/foods",
+            "Get Food Image": "/foods/image/:id",
+            "Get Food Review": "/foods/:id/review",
+        },
+        "POST": {
+            "Post Review": "/foods/:id/review",
+        }
+    }
+    ]);
 });
 app.get("/foods", getCulinaries);
 app.get("/foods/image/:id", getThumbByIdHandler);
