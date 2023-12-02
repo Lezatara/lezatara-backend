@@ -15,6 +15,7 @@ app.get("/", (req, res) => {
     res.send([
     {
         "Title": "Documentation",
+        "BASE URL": "https://lezatara-backend.vercel.app",
         "GET": {
             "Get All Foods": "/foods",
             "Get Food Image": "/foods/image/:id",
