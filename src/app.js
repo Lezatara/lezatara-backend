@@ -21,6 +21,8 @@ app.get("/", (req, res) => {
             "Get Food Image": "/foods/image/:id",
             "Get Food Review": "/foods/:id/review",
             "Get Search name": "foods/search?name=",
+            "Get Filter Regional desc": "/foods/filter?regional=",
+            "Get List Regional": "/regionals",
         },
         "POST": {
             "Post Review": "/foods/:id/review",
