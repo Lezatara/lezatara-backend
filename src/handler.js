@@ -106,4 +106,34 @@ const getReviewById = async (req, res) => {
     });
 }
 
-export { getCulinaries, getThumbByIdHandler, addingRev, getReviewById };
+const getCulinariesById = async (req, res) => {
+
+}
+
+const searchRecipeByName = (req, res) => {
+    try {
+        const jsonData = fs.readFileSync(path.join(__dirname, '../assets/data', 'data.json'));
+        const data = JSON.parse(jsonData);
+
+        const { name } = req.query;
+        if (!name) {
+            return res.status(400).send({ status: false, message: 'Parameter nama resep diperlukan' });
+        }
+
+        const resepYangCocok = data.receipt.filter((resep) =>
+            resep.name.toLowerCase().replace(/\s/g, '').includes(name.toLowerCase().replace(/\s/g, ''))
+        );
+
+        const response = {
+            status: true,
+            result: resepYangCocok,
+        };
+
+        return res.send(response);
+    } catch (error) {
+        console.error('Error membaca file JSON:', error);
+        return res.status(500).send({ status: false, message: 'Error server' });
+    }
+};
+
+export { getCulinaries, getThumbByIdHandler, addingRev, getReviewById, searchRecipeByName };
