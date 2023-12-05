@@ -3,7 +3,7 @@ import cors from "cors";
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
-import { getCulinaries, getThumbByIdHandler, addingRev, getReviewById } from "./handler.js";
+import { getCulinaries, getThumbByIdHandler, addingRev, getReviewById, searchRecipeByName } from "./handler.js";
 const app = Express();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -31,5 +31,6 @@ app.get("/foods", getCulinaries);
 app.get("/foods/image/:id", getThumbByIdHandler);
 app.post("/foods/:id/review", addingRev);
 app.get("/foods/:id/review", getReviewById);
+app.get("/foods/search", searchRecipeByName);
 
 export default app;
