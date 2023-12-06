@@ -181,6 +181,8 @@ const getDistinctRegionals = (req, res) => {
 const getFoodDetailById = (req, res) => {
     try {
         const { id } = req.params;
+        console.log('ID:', id);
+
         const jsonData = fs.readFileSync(path.join(__dirname, '../assets/data', 'data.json'));
         const data = JSON.parse(jsonData);
 
