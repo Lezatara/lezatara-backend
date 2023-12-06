@@ -180,23 +180,26 @@ const getDistinctRegionals = (req, res) => {
 
 const getFoodDetailById = (req, res) => {
     try {
-        const { id } = req.params;
-        console.log('ID:', id);
-
         const jsonData = fs.readFileSync(path.join(__dirname, '../assets/data', 'data.json'));
         const data = JSON.parse(jsonData);
 
-        const foodDetail = data.receipt.find((food) => food.id === parseInt(id));
-
-        if (foodDetail) {
-            return res.send({
-                status: true,
-                result: foodDetail,
-            });
+        const { id } = req.query;
+        if (!id) {
+            return res.status(400).send({ status: false, message: 'Parameter nama resep diperlukan' });
         }
-        return res.status(404).send({ status: false, message: 'Food not found' });
+
+        const resepYangCocok = data.receipt.filter((resep) =>
+            resep.id.toLowerCase().replace(/\s/g, '').includes(id.toLowerCase().replace(/\s/g, ''))
+        );
+
+        const response = {
+            status: true,
+            result: resepYangCocok,
+        };
+
+        return res.send(response);
     } catch (error) {
-        console.error('Error reading JSON file:', error);
+        console.error('Error membaca file JSON:', error);
         return res.status(500).send({ status: false, message: 'Error server' });
     }
 };
