@@ -178,27 +178,26 @@ const getDistinctRegionals = (req, res) => {
     }
 };
 
-const getFoodById = (req, res) => {
+const getFoodDetailById = (req, res) => {
     try {
         const { id } = req.params;
         const jsonData = fs.readFileSync(path.join(__dirname, '../assets/data', 'data.json'));
         const data = JSON.parse(jsonData);
-        
-        const food = data.receipt.find(item => item.id === parseInt(id));
 
-        if (!food) {
-            return res.status(404).send({ status: false, message: 'Food not found' });
+        const foodDetail = data.receipt.find((food) => food.id === parseInt(id));
+
+        if (foodDetail) {
+            return res.send({
+                status: true,
+                result: foodDetail,
+            });
         }
-
-        return res.send({
-            status: true,
-            result: food,
-        });
+        return res.status(404).send({ status: false, message: 'Food not found' });
     } catch (error) {
         console.error('Error reading JSON file:', error);
         return res.status(500).send({ status: false, message: 'Error server' });
     }
 };
 
-
-export { getCulinaries, getThumbByIdHandler, addingRev, getReviewById, searchRecipeByName, filterByRegional, getDistinctRegionals, getFoodById };
+export { getCulinaries, getThumbByIdHandler, addingRev, getReviewById, searchRecipeByName,
+         filterByRegional, getDistinctRegionals, getFoodDetailById };
