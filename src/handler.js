@@ -178,23 +178,23 @@ const getDistinctRegionals = (req, res) => {
     }
 };
 
-const getFoodDetailById = (req, res) => {
+const getRecipeByName = (req, res) => {
     try {
         const jsonData = fs.readFileSync(path.join(__dirname, '../assets/data', 'data.json'));
         const data = JSON.parse(jsonData);
 
-        const { id } = req.query;
-        if (!id) {
+        const { name } = req.params;
+        if (!name) {
             return res.status(400).send({ status: false, message: 'Parameter nama resep diperlukan' });
         }
 
-        const resepYangCocok = data.receipt.filter((resep) =>
-            resep.id.toLowerCase().replace(/\s/g, '').includes(id.toLowerCase().replace(/\s/g, ''))
+        const matchingRecipes = data.receipt.filter((recipe) =>
+            recipe.name.toLowerCase().replace(/\s/g, '').includes(name.toLowerCase().replace(/\s/g, ''))
         );
 
         const response = {
             status: true,
-            result: resepYangCocok,
+            result: matchingRecipes,
         };
 
         return res.send(response);
@@ -205,4 +205,4 @@ const getFoodDetailById = (req, res) => {
 };
 
 export { getCulinaries, getThumbByIdHandler, addingRev, getReviewById, searchRecipeByName,
-         filterByRegional, getDistinctRegionals, getFoodDetailById };
+         filterByRegional, getDistinctRegionals, getRecipeByName };
