@@ -24,6 +24,7 @@ app.get("/", (req, res) => {
             "Get Search Recipes": "/foods/search?name=<query>",
             "Get Detail Regional": "/regionals/detail",
             "Get List Regional": "/regionals",
+            "Get Detail Recipes": "/foods/detail/:id"
         },
         "POST": {
             "Post Review": "/foods/:id/review",
