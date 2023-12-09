@@ -204,5 +204,31 @@ const getRecipeByName = (req, res) => {
     }
 };
 
+const getRecipesByRegional = (req, res) => {
+    try {
+        const jsonData = fs.readFileSync(path.join(__dirname, '../assets/data', 'data.json'));
+        const data = JSON.parse(jsonData);
+
+        const { regional } = req.params;
+        if (!regional) {
+            return res.status(400).send({ status: false, message: 'Parameter regional diperlukan' });
+        }
+
+        const filteredRecipes = data.receipt.filter((recipe) =>
+            recipe.regional.toLowerCase().replace(/\s/g, '') === regional.toLowerCase().replace(/\s/g, '')
+        );
+
+        const response = {
+            status: true,
+            result: filteredRecipes,
+        };
+
+        return res.send(response);
+    } catch (error) {
+        console.error('Error reading JSON file:', error);
+        return res.status(500).send({ status: false, message: 'Error server' });
+    }
+};
+
 export { getCulinaries, getThumbByIdHandler, addingRev, getReviewById, searchRecipeByName,
-         filterByRegional, getDistinctRegionals, getRecipeByName };
+         filterByRegional, getDistinctRegionals, getRecipeByName, getRecipesByRegional };
