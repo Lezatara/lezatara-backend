@@ -233,10 +233,10 @@ const getRecipesByRegional = (req, res) => {
 const getRecipeById = (req, res) => {
     try {
         // Menggunakan require untuk membaca file JSON
-        const data = require('../assets/data/data.json');
+        const jsonData = fs.readFileSync(path.join(__dirname, '../assets/data', 'data.json'));
+        const data = JSON.parse(jsonData);
 
         const { id } = req.params;
-        console.log('Request ID:', id);
 
         if (!id) {
             return res.status(400).send({ status: false, message: 'Parameter ID resep diperlukan' });
@@ -244,12 +244,9 @@ const getRecipeById = (req, res) => {
 
         // Mengubah ID menjadi string dan huruf kecil
         const recipeId = String(id).toLowerCase();
-        console.log('Converted ID:', recipeId);
 
         // Mencari resep dengan ID yang sesuai
         const recipe = data.receipt.find((recipe) => recipe.id.toLowerCase() === recipeId);
-
-        console.log('Found Recipe:', recipe);
 
         if (!recipe) {
             return res.status(404).send({ status: false, message: 'Resep tidak ditemukan' });
@@ -262,7 +259,6 @@ const getRecipeById = (req, res) => {
 
         return res.send(response);
     } catch (error) {
-        console.error('Error membaca atau parsing file JSON:', error);
         return res.status(500).send({ status: false, message: 'Error server' });
     }
 };
