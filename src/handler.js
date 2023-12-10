@@ -230,39 +230,6 @@ const getRecipesByRegional = (req, res) => {
     }
 };
 
-const getRecipeById = (req, res) => {
-    try {
-        // Menggunakan require untuk membaca file JSON
-        const jsonData = fs.readFileSync(path.join(__dirname, '../assets/data', 'data.json'));
-        const data = JSON.parse(jsonData);
-
-        const { id } = req.params;
-
-        if (!id) {
-            return res.status(400).send({ status: false, message: 'Parameter ID resep diperlukan' });
-        }
-
-        // Mengubah ID menjadi string dan huruf kecil
-        const recipeId = String(id).toLowerCase();
-
-        // Mencari resep dengan ID yang sesuai
-        const recipe = data.receipt.find((recipe) => recipe.id.toLowerCase() === recipeId);
-
-        if (!recipe) {
-            return res.status(404).send({ status: false, message: 'Resep tidak ditemukan' });
-        }
-
-        const response = {
-            status: true,
-            result: recipe,
-        };
-
-        return res.send(response);
-    } catch (error) {
-        return res.status(500).send({ status: false, message: 'Error server' });
-    }
-};
-
 
 export { getCulinaries, getThumbByIdHandler, addingRev, getReviewById, searchRecipeByName,
-         filterByRegional, getDistinctRegionals, getRecipeByName, getRecipesByRegional, getRecipeById, };
+         filterByRegional, getDistinctRegionals, getRecipeByName, getRecipesByRegional, };
