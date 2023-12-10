@@ -240,7 +240,10 @@ const getRecipeById = (req, res) => {
             return res.status(400).send({ status: false, message: 'Parameter ID resep diperlukan' });
         }
 
-        const recipe = data.receipt.find((recipe) => recipe.id === id);
+        // Ubah ID dari parameter menjadi string, karena properti "id" di data.json adalah string
+        const recipeId = String(id);
+
+        const recipe = data.receipt.find((recipe) => recipe.id === recipeId);
 
         if (!recipe) {
             return res.status(404).send({ status: false, message: 'Resep tidak ditemukan' });
@@ -257,6 +260,7 @@ const getRecipeById = (req, res) => {
         return res.status(500).send({ status: false, message: 'Error server' });
     }
 };
+
 
 
 export { getCulinaries, getThumbByIdHandler, addingRev, getReviewById, searchRecipeByName,
