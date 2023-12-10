@@ -232,8 +232,8 @@ const getRecipesByRegional = (req, res) => {
 
 const getRecipeById = (req, res) => {
     try {
-        const jsonData = fs.readFileSync(path.join(__dirname, '../assets/data', 'data.json'));
-        const data = JSON.parse(jsonData);
+        // Menggunakan require untuk membaca file JSON
+        const data = require('../assets/data/data.json');
 
         const { id } = req.params;
         console.log('Request ID:', id);
@@ -242,10 +242,13 @@ const getRecipeById = (req, res) => {
             return res.status(400).send({ status: false, message: 'Parameter ID resep diperlukan' });
         }
 
-        const recipeId = String(id);
+        // Mengubah ID menjadi string dan huruf kecil
+        const recipeId = String(id).toLowerCase();
         console.log('Converted ID:', recipeId);
 
-        const recipe = data.receipt.find((recipe) => recipe.id === recipeId);
+        // Mencari resep dengan ID yang sesuai
+        const recipe = data.receipt.find((recipe) => recipe.id.toLowerCase() === recipeId);
+
         console.log('Found Recipe:', recipe);
 
         if (!recipe) {
@@ -259,11 +262,10 @@ const getRecipeById = (req, res) => {
 
         return res.send(response);
     } catch (error) {
-        console.error('Error membaca file JSON:', error);
+        console.error('Error membaca atau parsing file JSON:', error);
         return res.status(500).send({ status: false, message: 'Error server' });
     }
 };
-
 
 
 export { getCulinaries, getThumbByIdHandler, addingRev, getReviewById, searchRecipeByName,
