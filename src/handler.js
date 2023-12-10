@@ -236,14 +236,17 @@ const getRecipeById = (req, res) => {
         const data = JSON.parse(jsonData);
 
         const { id } = req.params;
+        console.log('Request ID:', id);
+
         if (!id) {
             return res.status(400).send({ status: false, message: 'Parameter ID resep diperlukan' });
         }
 
-        // Ubah ID dari parameter menjadi string, karena properti "id" di data.json adalah string
         const recipeId = String(id);
+        console.log('Converted ID:', recipeId);
 
         const recipe = data.receipt.find((recipe) => recipe.id === recipeId);
+        console.log('Found Recipe:', recipe);
 
         if (!recipe) {
             return res.status(404).send({ status: false, message: 'Resep tidak ditemukan' });
