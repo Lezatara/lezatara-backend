@@ -4,7 +4,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import { getCulinaries, getThumbByIdHandler, addingRev, getReviewById, searchRecipeByName, 
-         filterByRegional, getDistinctRegionals, getRecipeByName, getRecipesByRegional } from "./handler.js";
+         filterByRegional, getDistinctRegionals, getRecipeByName, getRecipesByRegional, getPictureById } from "./handler.js";
 const app = Express();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -25,7 +25,8 @@ app.get("/", (req, res) => {
             "Get Detail Regional": "/regionals/detail",
             "Get List Regional": "/regionals",
             "Get Detail Recipes": "/detail-recipes/:name",
-            "Get Filter Regional desc": "/detail-regions/:regional"
+            "Get Filter Regional desc": "/detail-regions/:regional",
+            "Get Image by ID": "/pictures/:idPicture",
         },
         "POST": {
             "Post Review": "/foods/:id/review",
@@ -42,5 +43,6 @@ app.get("/regionals/detail", filterByRegional);
 app.get("/regionals", getDistinctRegionals);
 app.get("/detail-recipes/:name", getRecipeByName);
 app.get("/detail-regions/:regional", getRecipesByRegional);
+app.get("/pictures/:idPicture", getPictureById);
 
 export default app;
