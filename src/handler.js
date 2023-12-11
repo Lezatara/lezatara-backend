@@ -230,33 +230,6 @@ const getRecipesByRegional = (req, res) => {
     }
 };
 
-const getPictureById = (req, res) => {
-    try {
-        const { idPicture } = req.params;
-
-        if (!idPicture) {
-            return res.status(400).send({ status: false, message: 'Parameter ID gambar diperlukan' });
-        }
-
-        const imageId = parseInt(idPicture);
-        const data = fs.readFileSync(path.join(__dirname, '../assets/data', 'data-img.json'));
-        const jsonData = JSON.parse(data);
-        const picture = jsonData.picture.find((pic) => pic.id === imageId);
-
-        if (picture) {
-            const { fileName } = picture;
-            const imagePath = path.join(__dirname, '../assets/thumbnail', fileName);
-
-            return res.sendFile(imagePath);
-        }
-
-        return res.status(404).send({ status: false, message: 'Gambar tidak ditemukan' });
-    } catch (error) {
-        console.error('Error reading JSON file:', error);
-        return res.status(500).send({ status: false, message: 'Error server' });
-    }
-};
-
 
 export { getCulinaries, getThumbByIdHandler, addingRev, getReviewById, searchRecipeByName,
-         filterByRegional, getDistinctRegionals, getRecipeByName, getRecipesByRegional, getPictureById,};
+         filterByRegional, getDistinctRegionals, getRecipeByName, getRecipesByRegional, };
