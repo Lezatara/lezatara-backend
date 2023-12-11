@@ -245,7 +245,7 @@ const getPictureById = (req, res) => {
 
         if (picture) {
             const { fileName } = picture;
-            const imagePath = path.join(__dirname, '../assets/pictures', fileName);
+            const imagePath = path.join(__dirname, '../assets/thumbnail', fileName);
 
             return res.sendFile(imagePath);
         }
