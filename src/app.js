@@ -44,6 +44,7 @@ app.get("/regionals", getDistinctRegionals);
 app.get("/detail-recipes/:name", getRecipeByName);
 app.get("/detail-regions/:regional", getRecipesByRegional);
 app.get("/getreview/:id", getReviewById);
+app.post("/review", addingRev);
 
 
 export default app;
