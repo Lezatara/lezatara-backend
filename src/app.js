@@ -43,6 +43,7 @@ app.get("/regionals/detail", filterByRegional);
 app.get("/regionals", getDistinctRegionals);
 app.get("/detail-recipes/:name", getRecipeByName);
 app.get("/detail-regions/:regional", getRecipesByRegional);
+app.get("/getreview/:id", getReviewById);
 
 
 export default app;
