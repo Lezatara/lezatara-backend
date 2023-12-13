@@ -232,4 +232,4 @@ const getRecipesByRegional = (req, res) => {
 
 
 export { getCulinaries, getThumbByIdHandler, addingRev, getReviewById, searchRecipeByName,
-         filterByRegional, getDistinctRegionals, getRecipeByName, getRecipesByRegional, };
+         filterByRegional, getDistinctRegionals, getRecipeByName, getRecipesByRegional };
