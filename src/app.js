@@ -9,7 +9,7 @@ const app = Express();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 app.use(Express.json());
-app.use(cors());
+app.use(cors({ origin: 'http://localhost:8000' }));
 app.use(Express.static(path.join(__dirname, 'images')));
 
 app.get("/", (req, res) => {
